@@ -176,7 +176,7 @@ header {
 }
 
 .Formacion {
-  background: #01182b;
+  background: #0c4675;
   font-family: "Roboto Condensed", sans-serif;
   height: 760px;
 }
@@ -279,7 +279,8 @@ header {
 }
 .js,
 .github,
-.figma {
+.figma,
+.fa-react {
   color: rgb(25, 51, 199);
   font-size: 120px;
   background: #000;
