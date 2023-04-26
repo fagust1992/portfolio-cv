@@ -280,7 +280,9 @@ header {
 .js,
 .github,
 .figma,
-.fa-react {
+.fa-react,
+.fa-database,
+.fa-share-nodes {
   color: rgb(25, 51, 199);
   font-size: 120px;
   background: #000;
