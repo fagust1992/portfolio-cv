@@ -42,7 +42,6 @@ document.addEventListener("click", function (e) {
   var texto_proyecto6 = document.querySelector(".Wonderland");
 
   console.log(texto_proyecto6);
-  console.log(texto_proyecto2.textContent);
 
   console.log(texto_proyecto1);
   var texto_modal = document.querySelector(".texto-modal");
@@ -54,7 +53,7 @@ document.addEventListener("click", function (e) {
       texto_modal.innerHTML = texto_proyecto1.textContent;
     } else if (src == "img/proyecto3.png") {
       texto_modal.innerHTML = texto_proyecto2.textContent;
-    } else if (src == "img/pagina1.png") {
+    } else if (src == "img/pizzeria.jpg") {
       texto_modal.innerHTML = texto_proyecto3.textContent;
     } else if (src == "img/proyecto4.png") {
       texto_modal.innerHTML = texto_proyecto4.textContent;
