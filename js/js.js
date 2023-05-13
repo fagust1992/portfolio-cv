@@ -55,9 +55,9 @@ document.addEventListener("click", function (e) {
       texto_modal.innerHTML = texto_proyecto2.textContent;
     } else if (src == "img/pizzeria.jpg") {
       texto_modal.innerHTML = texto_proyecto3.textContent;
-    } else if (src == "img/proyecto4.png") {
+    } else if (src == "img/likeme.jpg") {
       texto_modal.innerHTML = texto_proyecto4.textContent;
-    } else if (src == "img/proyecto5.png") {
+    } else if (src == "img/proyecto5.p ng") {
       texto_modal.innerHTML = texto_proyecto5.textContent;
     } else if (src == "img/proyecto6.png") {
       texto_modal.innerHTML = texto_proyecto6.textContent;
