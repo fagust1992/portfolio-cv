@@ -34,22 +34,23 @@ obersvador.observe(imagen1);
 
 //script proyectos click imagen//
 document.addEventListener("click", function (e) {
-  var texto_proyecto1 = document.querySelector(".inmobiliaria-san-jose");
-  var texto_proyecto2 = document.querySelector(".harrypotter");
-  var texto_proyecto3 = document.querySelector(".tecnologia");
-  var texto_proyecto4 = document.querySelector(".conversion-monedas");
-  var texto_proyecto5 = document.querySelector(".startup");
-  var texto_proyecto6 = document.querySelector(".Wonderland");
+  let texto_proyecto1 = document.querySelector(".base-datos");
+  let texto_proyecto2 = document.querySelector(".harrypotter");
+  let texto_proyecto3 = document.querySelector(".tecnologia");
+  let texto_proyecto4 = document.querySelector(".conversion-monedas");
+  let texto_proyecto5 = document.querySelector(".startup");
+
+  let texto_proyecto6 = document.querySelector(".Poke-info");
 
   console.log(texto_proyecto6);
 
   console.log(texto_proyecto1);
-  var texto_modal = document.querySelector(".texto-modal");
+  let texto_modal = document.querySelector(".texto-modal");
 
   console.log(e);
   if (e.target.classList.contains("gallery-item")) {
     const src = e.target.getAttribute("src");
-    if (src === "img/proyecto1.png") {
+    if (src === "img/proyecto1.jpg") {
       texto_modal.innerHTML = texto_proyecto1.textContent;
     } else if (src == "img/proyecto3.png") {
       texto_modal.innerHTML = texto_proyecto2.textContent;
@@ -57,10 +58,10 @@ document.addEventListener("click", function (e) {
       texto_modal.innerHTML = texto_proyecto3.textContent;
     } else if (src == "img/likeme.jpg") {
       texto_modal.innerHTML = texto_proyecto4.textContent;
-    } else if (src == "img/proyecto5.p ng") {
-      texto_modal.innerHTML = texto_proyecto5.textContent;
-    } else if (src == "img/proyecto6.png") {
+    } else if (src == "img/poke-info.jpg") {
       texto_modal.innerHTML = texto_proyecto6.textContent;
+    } else if (src == "img/proyecto5.png") {
+      texto_modal.innerHTML = texto_proyecto5.textContent;
     }
     document.querySelector(".modal-img").src = src;
     document.querySelector(".capa-a");
