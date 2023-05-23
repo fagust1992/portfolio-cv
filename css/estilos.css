@@ -147,6 +147,7 @@ header {
 }
 .contenedor-main-2 {
   background: rgb(34, 30, 30);
+  height: auto;
 }
 
 .contenedor-main h2,
@@ -541,7 +542,7 @@ img {
     flex-direction: column;
     display: flex;
     justify-content: center;
-    height: 1100px;
+    height: 1500px;
     background: #000;
     align-items: center;
   }
